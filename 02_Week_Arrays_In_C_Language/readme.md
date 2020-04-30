@@ -1,9 +1,9 @@
 Problem Set 2
 
-What to Do
 
-Readability.c
 
-Caesar.c
+2.1. Readability.c
 
-Substitution.c
+2.2. Caesar.c
+
+2.3. Substitution.c
