@@ -31,3 +31,4 @@ e.g.
     (15) evaluating the difference of test results and digging the details and cause
     (16) correct main code for minor unseen previousely algorithm mistakes (e.g. missing =0 for some loops)
 ### - how to debug code, find mistakes, functions, new code/algorithm solutions
+### - how to comment, style the code, make code clear, effective and beautiful:)
