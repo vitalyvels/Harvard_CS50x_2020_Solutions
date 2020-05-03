@@ -126,13 +126,14 @@ Try running your program on the following texts.
 #### It was a bright cold day in April, and the clocks were striking thirteen. Winston Smith, his chin nuzzled into his breast in an effort to escape the vile wind, slipped quickly through the glass doors of Victory Mansions, though not quickly enough to prevent a swirl of gritty dust from entering along with him. (Grade 10)
 #### A large class of computational problems involve the determination of properties of graphs, digraphs, integers, arrays of integers, finite families of finite sets, boolean formulas and elements of other countable domains. (Grade 16+)
 
-Execute the below to evaluate the correctness of your code using check50. But be sure to compile and test it yourself as well!
+### Execute the below to evaluate the correctness of your code using check50. But be sure to compile and test it yourself as well!
 
-#### check50 cs50/problems/2020/spring/readability
+#### $check50 cs50/problems/2020/spring/readability
 
-Execute the below to evaluate the style of your code using style50.
+### Execute the below to evaluate the style of your code using style50.
 
-style50 readability.c
+#### $style50 readability.c
+
 
 ## My Solutions helped resolve main problem
 
