@@ -28,7 +28,8 @@ e.g.
     (12) using existing funtion calls 
     (13) using text char 2D arrays of tes text examples tied to resulting grade
     (14) comparing test and benchmark result grades
-    (15) evaluating the difference of test results and digging the details and cause
+    (15) evaluating the difference of test results and digging into the details and cause
     (16) correct main code for minor unseen previousely algorithm mistakes (e.g. missing =0 for some loops)
 ### - how to debug code, find mistakes, functions, new code/algorithm solutions
+### - how to use github, Jira and Confluence applying to the software project
 ### - how to comment, style the code, make code clear, effective and beautiful:)
