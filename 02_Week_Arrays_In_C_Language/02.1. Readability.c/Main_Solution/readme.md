@@ -20,7 +20,7 @@
 ### - how to execute calculatios in C
     (11) some formulas got worked only after changing variables order 
     (e.g.   
-    didn't  worked: index = letters / words * 5.88 - sentences / words * 29.6 - 15.8;
+    didn't  worked: index = letters / words / 100 * 0.0588 - sentences / words * 0.296 - 15.8;
     but     worked: index = 5.88 * letters / words - 29.6 * sentences / words - 15.8;
 ### - how to make autotest out of code
     (12) using existing funtion calls 
