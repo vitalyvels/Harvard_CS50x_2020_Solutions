@@ -19,7 +19,7 @@
     (10) right function call (e.g. grade();)
 ### - how to execute calculatios in C
     (11) some formulas got worked only after changing variables order 
-    (e.g.   
+    e.g.   
     didn't  worked: index = letters / words / 100 * 0.0588 - sentences / words * 0.296 - 15.8;
     but     worked: index = 5.88 * letters / words - 29.6 * sentences / words - 15.8;
 ### - how to make autotest out of code
