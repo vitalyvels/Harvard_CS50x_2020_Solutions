@@ -128,13 +128,13 @@ style50 readability.c
 
 Solutions helped resolve main problem
 
-+ to count letteers in the text [countletters.c](./countletters.c)
++ to count letteers in the text [countletters.c](./prerequisite_solutions/countletters.c)
 
-+ to count words in the text [countwords.c](./countwords.c)
++ to count words in the text [countwords.c](./prerequisite_solutions/countwords.c)
 
-+ to find given words in the text [findwordintext.c](./findwordintext.c)
++ to find given words in the text [findwordintext.c](./prerequisite_solutions/findwordintext.c)
 
-:+: to manage specific array of words [words2array.c](./words2array.c)
++ to manage specific array of words [words2array.c](./prerequisite_solutions/words2array.c)
 
 
-prerequisite_solutions
+
