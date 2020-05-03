@@ -1,6 +1,6 @@
 Solutions helped resolve main problem
 
-:fire: to count letteers in the text countletters.c
+:fire: to count letteers in the text [countletters.c](./countletters.c)
 
 :fire: to count words in the text countwords.c
 
