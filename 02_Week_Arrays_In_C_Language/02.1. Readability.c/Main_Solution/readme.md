@@ -4,7 +4,7 @@
 ### - how to group global variables in code 
 e.g. 
     int i, j, k, l, m, p, letters, words, sentences, nonsentence, found, text_length;
-### - how to count letters in text through (in [countletters.c](./https://github.com/vitalyvels/Harvard_CS50x_2020_Solutions/blob/master/02_Week_Arrays_In_C_Language/02.1.%20Readability.c/prerequisite_solutions/countletters.c))
+### - how to count letters in text through (in [countletters.c](./vitalyvels/Harvard_CS50x_2020_Solutions/blob/master/02_Week_Arrays_In_C_Language/02.1.%20Readability.c/prerequisite_solutions/countletters.c))
     (1) low/highcase alphabet char array creation
     (2) imersed in loop for checking presence of letters in given text string char by char and count every letter
 ### - how to count words through
