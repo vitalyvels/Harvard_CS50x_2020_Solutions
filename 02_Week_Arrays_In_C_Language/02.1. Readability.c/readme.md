@@ -125,3 +125,16 @@ check50 cs50/problems/2020/spring/readability
 Execute the below to evaluate the style of your code using style50.
 
 style50 readability.c
+
+Solutions helped resolve main problem
+
++ to count letteers in the text [countletters.c](./countletters.c)
+
++ to count words in the text [countwords.c](./countwords.c)
+
++ to find given words in the text [findwordintext.c](./findwordintext.c)
+
+:+: to manage specific array of words [words2array.c](./words2array.c)
+
+
+prerequisite_solutions
