@@ -1,7 +1,8 @@
 # Main Solution for readability.c
 
 ## Lessons learned
-### - how to group global variables in code (e.g. int i, j, k, l, m, p, letters, words, sentences, nonsentence, found, text_length;)
+### - how to group global variables in code 
+e.g. int i, j, k, l, m, p, letters, words, sentences, nonsentence, found, text_length;
 ### - how to count letters in text through (in [countletters.c](.prerequisite_solutions/countletters.c))
     (1) low/highcase alphabet char array creation
     (2) imersed in loop for checking presence of letters in given text string char by char and count every letter
