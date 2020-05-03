@@ -6,4 +6,4 @@ Solutions helped resolve main problem
 
 :fire: to find given words in the text [findwordintext.c](./findwordintext.c)
 
-:fire: to find specific array of words in text [words2array.c](./words2array.c)
+:fire: to manage specific array of words [words2array.c](./words2array.c)
