@@ -2,7 +2,7 @@
 
 ## Implement a program that computes the approximate grade level needed to comprehend some text, per the below.
 
-### $ ./readability
+#### $ ./readability
 #### Text: Congratulations! Today is your day. You're off to Great Places! You're off and away!
 #### Grade 3
 
@@ -20,21 +20,21 @@ Here, L is the average number of letters per 100 words in the text, and S is the
 
 Let’s write a program called readability that takes a text and determines its reading level. For example, if user types in a line from Dr. Seuss:
 
-### $ ./readability
+#### $ ./readability
 #### Text: Congratulations! Today is your day. You're off to Great Places! You're off and away!
 #### Grade 3
 The text the user inputted has 65 letters, 4 sentences, and 14 words. 65 letters per 14 words is an average of about 464.29 letters per 100 words. And 4 sentences per 14 words is an average of about 28.57 sentences per 100 words. Plugged into the Coleman-Liau formula, and rounded to the nearest whole number, we get an answer of 3: so this passage is at a third grade reading level.
 
 Let’s try another one:
 
-### $ ./readability
+#### $ ./readability
 #### Text: Harry Potter was a highly unusual boy in many ways. For one thing, he hated the summer holidays more than any other time of year. For another, he really wanted to do his homework, but was forced to do it in secret, in the dead of the night. And he also happened to be a wizard.
 #### Grade 5
 This text has 214 letters, 4 sentences, and 56 words. That comes out to about 382.14 letters per 100 words, and 7.14 sentences per 100 words. Plugged into the Coleman-Liau formula, we get a fifth grade reading level.
 
 As the average number of letters and words per sentence increases, the Coleman-Liau index gives the text a higher reading level. If you were to take this paragraph, for instance, which has longer words and sentences than either of the prior two examples, the formula would give the text an eleventh grade reading level.
 
-### $ ./readability
+#### $ ./readability
 #### Text: As the average number of letters and words per sentence increases, the Coleman-Liau index gives the text a higher reading level. If you were to take this paragraph, for instance, which has longer words and sentences than either of the prior two examples, the formula would give the text an eleventh grade reading level.
 #### Grade 11
 Try It
@@ -53,7 +53,7 @@ Let’s first write some C code that just gets some text input from the user, an
 
 The behavior of the resulting program should be like the below.
 
-### $ ./readability
+#### $ ./readability
 #### Text: In my younger and more vulnerable years my father gave me some advice that I've been turning over in my mind ever since.
 #### In my younger and more vulnerable years my father gave me some advice that I've been turning over in my mind ever since.
 
@@ -62,7 +62,7 @@ Now that you’ve collected input from the user, let’s begin to analyze that i
 
 The behavior of the resulting program should be like the below.
 
-### $ ./readability
+#### $ ./readability
 #### Text: Alice was beginning to get very tired of sitting by her sister on the bank, and of having nothing to do: once or twice she had peeped into the book her sister was reading, but it had no pictures or conversations in it, "and what is the use of a book," thought Alice "without pictures or conversation?"
 #### 235 letter(s)
 Letters can be any uppercase or lowercase alphabetic characters, but shouldn’t include any punctuation, digits, or other symbols.
@@ -78,7 +78,7 @@ You may assume that a sentence will not start or end with a space, and you may a
 
 The behavior of the resulting program should be like the below.
 
-### $ ./readability
+#### $ ./readability
 #### Text: It was a bright cold day in April, and the clocks were striking thirteen. Winston Smith, his chin nuzzled into his breast in an effort to escape the vile wind, slipped quickly through the glass doors of Victory Mansions, though not quickly enough to prevent a swirl of gritty dust from entering along with him.
 #### 250 letter(s)
 #### 55 word(s)
@@ -86,14 +86,14 @@ The behavior of the resulting program should be like the below.
 ## Sentences
 The last piece of information that the Coleman-Liau formula cares about, in addition to the number of letters and words, is the number of sentences. Determining the number of sentences can be surprisingly trickly. You might first imagine that a sentence is just any sequence of characters that ends with a period, but of course sentences could end with an exclamation point or a question mark as well. But of course, not all periods necessarily mean the sentence is over. For instance, consider the sentence below.
 
-### Text: Mr. and Mrs. Dursley, of number four Privet Drive, were proud to say that they were perfectly normal, thank you very much.
+#### Text: Mr. and Mrs. Dursley, of number four Privet Drive, were proud to say that they were perfectly normal, thank you very much.
 This is just a single sentence, but there are three periods! For this problem, we’ll ask you to ignore that subtlety: you should consider any sequence of characters that ends with a . or a ! or a ? to be a sentence (so for the above “sentence”, you may count that as three sentences). In practice, sentence boundary detection needs to be a little more intelligent to handle these cases, but we’ll not worry about that for now.
 
 Modify readability.c so that it also now prints out the number of sentences in the text.
 
 The behavior of the resulting program should be like the below.
 
-### $ ./readability
+#### $ ./readability
 #### Text: When he was nearly thirteen, my brother Jem got his arm badly broken at the elbow. When it healed, and Jem's fears of never being able to play football were assuaged, he was seldom self-conscious about his injury. His left arm was somewhat shorter than his right; when he stood or walked, the back of his hand was at right angles to his body, his thumb parallel to his thigh.
 #### 295 letter(s)
 #### 70 word(s)
