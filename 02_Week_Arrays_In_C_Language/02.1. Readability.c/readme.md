@@ -137,7 +137,7 @@ Try running your program on the following texts.
 
 ## My Solutions helped resolve main problem
 
-### + to count letteers in the text [countletters.c](./prerequisite_solutions/countletters.c)
+### + to count letters in the text [countletters.c](./prerequisite_solutions/countletters.c)
 
 ### + to count words in the text [countwords.c](./prerequisite_solutions/countwords.c)
 
